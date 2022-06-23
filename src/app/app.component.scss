@@ -12,13 +12,14 @@ INSTRUCTIONS
   }
   
   .page-wrap {
-    width: 100%;
+    width: 800px;
     margin: 20px auto;
   }
   
   .main-story {
     position: relative;
     margin: 0 0 25px 0;
+
   }
   
   img {
@@ -46,19 +47,19 @@ INSTRUCTIONS
      font-size: 4em;
   }
   h1, h2 {
-    display: block;
+    display: flex;
     margin: 0 0 10px 0;
   }
   
   .story-intro h1 {
     font-size: 2.5em; 
+
   }
   .story-intro p {
     margin: 0;
   }
   
   .sub-stories {
-    
     overflow: hidden;
     margin: 0 0 25px 0;
   }
@@ -76,6 +77,18 @@ INSTRUCTIONS
   }
   @media (max-width:840px) {
 
+    .main-story div{
+      height: 100px;
+    }
+
+    .main-story div h1{
+      font-size: 1.0em;
+    }
+
+    .page-wrap{
+      width: 100%;
+    }
+
     img{
     width: 100%;
     height: 100%;
@@ -84,6 +97,11 @@ INSTRUCTIONS
   .story-intro{
     width: 100%;
     height: 25%;
+  }
+
+  .story-intro h1{
+    font-size: 2.5em; 
+    margin: 0px;
   }
     
   .sub-stories {
